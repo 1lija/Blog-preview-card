@@ -68,6 +68,11 @@ main{
                 h1{
                     font-size: 20px;
                     height:2.5rem;
+
+                    &:hover{
+                        color: hsl(47,88%, 63%);
+                        cursor: pointer;
+                    }
                 }
                 p{
             font-size: 15px;
