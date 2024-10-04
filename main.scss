@@ -2,14 +2,19 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    background-color: hsl(47,88%, 63%);
     width: 100%;
     height: 100%;
+    font-family: "Figtree", serif;
+            font-style: normal;;
+}
+body{
+    background-color: hsl(47,88%, 63%);
+
 }
 // Designing the main container
 main{
     width: 350px;
-    height: 500px;
+    height: 450px;
     background-color:  hsl(0,0%,100%);
     border-radius: 5%;
     box-shadow: 6px 6px 0px 0px rgba(0,0,0,1);
@@ -23,18 +28,18 @@ main{
         img{
             width: 88%;
             height: 160px;
-            border: 2px solid red;
+            // border: 2px solid red;
             position: relative;
             left:6%;
             top:21px;
             border-radius:20%;
                     object-fit: cover;
-                    // background-color: inherit;
                     border-radius:5%;
 
         }
 
         span{
+            background-color: hsl(47,88%, 63%);
             position: relative;
             top: 8%;
             left: 6%;
@@ -42,9 +47,59 @@ main{
             height: max-content;
             padding:5px;
             font-weight: 800;
-            font-family: "Figtree", serif;
-            font-style: normal;
-            border-radius: 5%;
+            border-radius: 10%;
 
+        }
+
+        .description{
+            width: 88%;
+            height: 150px;
+            position:relative;
+            top:50px;
+            left:6%;
+                article{
+                    padding-top:8px;
+                    font-size: 13px;
+                    height:2.5rem;
+                    color:hsl(0, 0%, 7%);
+                    
+                }
+
+                h1{
+                    font-size: 20px;
+                    height:2.5rem;
+                }
+                p{
+            font-size: 15px;
+            height: max-content;
+            color: hsl(0, 0%, 42%)
+                }
+
+        }
+
+        footer{
+            width: 88%;
+            height: 50px;
+            position: relative;
+            top: 50px;
+            left:6%;
+            display: inline-block;
+                
+                .avatar{
+                    width: 30px;
+                    height: 30px;
+                    position: inherit;
+                    left: 0;
+                    top:5px;
+                }
+                p{
+                    position: inherit;
+                    top: -23px;
+                    left: 50px;
+                    height: max-content;
+                    width: max-content;
+                    font-size: 15px;
+                    font-weight: bold;
+                }
         }
 }
